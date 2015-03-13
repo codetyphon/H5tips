@@ -8,10 +8,33 @@
   * input
   * 
 
-  * >email
+>email
 ```
 E-mail: <input type="email" name="user_email" />
 ```
+>url
+```
+Homepage: <input type="url" name="user_url" />
+```
+>number
+```
+Points: <input type="number" name="points" min="1" max="10" />
+```
+>range    可以用來做滑動
+```
+<input type="range" name="points" min="1" max="10" />
+```
+>時間日期
+```
+Date: <input type="date" name="user_date" />
+```
+
+>search
+```
+Date: <input type="search" name="user_date" />
+```
+>Date: 
+
   * 完成js的效果
 
 >css 部分
