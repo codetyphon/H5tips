@@ -5,6 +5,11 @@
 >html部分
 
   * 语义化
+  * input
+  *  * email
+  *  ```
+  *  E-mail: <input type="email" name="user_email" />
+  *  ```
   * 完成js的效果
 
 >css 部分
