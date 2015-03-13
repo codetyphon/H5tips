@@ -42,6 +42,25 @@ Webpage: <input type="url" list="url_list" name="link" />
 <option label="Microsoft" value="http://www.microsoft.com" />
 </datalist>
 ```
+
+>自動焦點
+```
+User name: <input type="text" name="user_name"  autofocus="autofocus" />
+```
+
+>自定義驗證
+```
+Country code: <input type="text" name="country_code"
+pattern="[A-z]{3}" title="Three letter country code" />
+```
+默認值
+```
+<input type="search" name="user_search"  placeholder="Search W3School" />
+```
+不能為空
+```
+Name: <input type="text" name="usr_name" required="required" />
+```
   * 完成js的效果
 
 >css 部分
