@@ -86,3 +86,20 @@ Name: <input type="text" name="usr_name" required="required" />
 
  * 延时加载
  * 
+ 
+```
+<div id="test"></div>
+```
+
+
+```
+var el = document.getElementById("test");
+el.dataset.name = "chaomao";
+el.dataset.age = 15;
+console.log(el.dataset.name); //return chaomao
+console.log(el.dataset.age); //return 15
+```
+
+```
+<div id="test" data-name="chaomao" data-age="15"></div>
+```
