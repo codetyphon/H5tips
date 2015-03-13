@@ -33,8 +33,15 @@ Date: <input type="date" name="user_date" />
 ```
 Date: <input type="search" name="user_date" />
 ```
->Date: 
-
+>輸入列表
+```
+Webpage: <input type="url" list="url_list" name="link" />
+<datalist id="url_list">
+<option label="W3School" value="http://www.W3School.com.cn" />
+<option label="Google" value="http://www.google.com" />
+<option label="Microsoft" value="http://www.microsoft.com" />
+</datalist>
+```
   * 完成js的效果
 
 >css 部分
