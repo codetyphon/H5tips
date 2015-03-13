@@ -8,7 +8,7 @@
   * input
   * 
 
-* * email
+  * >email
 ```
 E-mail: <input type="email" name="user_email" />
 ```
