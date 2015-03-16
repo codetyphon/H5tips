@@ -111,3 +111,7 @@ console.log(el.dataset.age); //return 15
     position: absolute; left: 50%; top: 50%; 
     margin-left: -100px; margin-top: -100px;
 }
+
+自動播放音樂IOS
+<audio id="audio" src="音乐地址" loop preload="auto" autoplay="true" class="hide"></audio>
+<img src="1.png" onload="audio.play()" />
