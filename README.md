@@ -103,3 +103,11 @@ console.log(el.dataset.age); //return 15
 ```
 <div id="test" data-name="chaomao" data-age="15"></div>
 ```
+
+
+居中定位法：
+
+.example {
+    position: absolute; left: 50%; top: 50%; 
+    margin-left: -100px; margin-top: -100px;
+}
