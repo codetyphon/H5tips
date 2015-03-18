@@ -7,6 +7,26 @@
   * 语义化
   * input
   * 
+>禁止自动更正
+
+```
+<input type="text autocorrect="off" />
+```
+
+禁止首字母大写
+```
+<input autocapitalize="off" />
+```
+
+```
+<input type="text" pattern="\d*" novalidate />   <!-- number -->
+
+
+<input type="email" />
+<input type="number" />
+
+```
+
 
 >email
 ```
